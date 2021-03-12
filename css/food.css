@@ -1,0 +1,501 @@
+@charset'utf-8';
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Sawarabi Gothic", "sans-serif", "YakuHanJP", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴシック Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    /*
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(../img/japan-squea.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+*/
+    background-color: #E5E5E5;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+}
+
+#wrap {
+    text-align: center;
+    width: auto;
+    background-color: black;
+    margin: 0 auto;
+}
+
+footer {
+    border-top: 1px black dashed;
+    background-color: #E5E5E5;
+    padding-top: 20px;
+}
+
+#wrap p {
+    margin: 0;
+    color: black;
+}
+
+
+
+
+
+
+
+#main_nav {
+    width: 100%;
+
+}
+
+#main_nav ul {
+    /*ここ朝永先生に聞く（ulにしかflexきかない）*/
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    z-index: 1000;
+
+}
+
+#main_nav ul li {
+    width: calc(100%/6);
+    list-style-type: none;
+    line-height: 3.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 1px dashed white;
+
+
+}
+
+#main_nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#main_nav ul li:hover {
+    background-color: seagreen;
+
+}
+
+#main_nav ul li a:hover {
+    color: black;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h1 img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+#main {
+    width: 100%;
+
+}
+
+
+h2 {
+    color: white;
+    margin: 70px auto 40px;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+/*ここから編集*/
+
+
+#main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main_img {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/fullkaisekil.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin: 0;
+    font-family:  "Sawarabi Gothic";
+    font-size: 2em;
+}
+
+h3{
+    font-family:  "Sawarabi Gothic";
+    font-size: 1.5em;
+}
+
+
+
+
+.catch {
+    text-align: center;
+    color: black;
+    margin: 40px auto 50px;
+}
+
+#contents {
+    display: flex;
+
+}
+
+#food_area {
+    text-align: center;
+    color: black;
+    width: 600px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#food_area p {
+    color: black;
+    width: 500px;
+    margin: 0 auto 40px;
+    text-align: left;
+    font-family: "Sawarabi Gothic";
+
+
+}
+
+
+#food_area img {
+    width: 500px;
+    margin: -3px auto;
+}
+
+#food_area a {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    margin: 50px auto;
+    padding: 20px 10px 20px 10px;
+    background-color: #f3b5f4;
+    width: 150px;
+    color: black;
+    -webkit-box-shadow: 5px 5px 0px orange;
+    box-shadow: 5px 5px 0px orange;
+    border-radius: 3em;
+    transition: 0.5s;
+}
+
+
+#food_area a:hover {
+
+    background-color: #f3b5f4;
+    color: white;
+    -webkit-box-shadow: -5px -5px 0px orange;
+    box-shadow: -5px -5px 0px orange;
+}
+
+
+
+#morning {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: black;
+}
+
+#morning img {
+    width: 500px;
+    height: 330px;
+
+}
+
+#dezart {
+    text-align: center;
+    color: black;
+}
+
+#dezart img {
+    width: 500px;
+    height: auto;
+}
+
+.catch {
+    margin-top: 40px;
+
+}
+
+.catch p {
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1050px) {
+
+    #main_nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        background: transparent;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: all .5s;
+        z-index: 10;
+        opacity: 0;
+        margin-left: -1px;
+    }
+
+    .open2 #main_nav {
+        left: 0;
+        opacity: 1;
+    }
+
+    #main_nav {
+        padding: 20px;
+    }
+
+    #main_nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        background-color: blue;
+        opacity: 0.5;
+        width: 150px;
+    }
+
+    #main_nav ul li {
+        width: 150px;
+        position: relative;
+        margin: 0;
+        border-right: none;
+    }
+
+    #main_nav ul li a {
+        font-size: 14px;
+    }
+
+
+    #main_nav ul li a:nth-of-type(1) {
+        height: 50px;
+    }
+
+
+
+
+    #main_nav a {
+        display: block;
+        color: black;
+        font-size: 14px;
+        padding: 0;
+        transition-duration: 0.2s;
+        text-align: start;
+        width: 150px;
+        /*		border-bottom: 2px dotted white;*/
+        margin: 2px;
+    }
+
+    #main_nav a:hover {
+        background-color: white;
+    }
+
+
+    #main_nav {
+        left: -70%;
+        width: 70%;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: #fff;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ac6525;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: blue;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: blue;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+}

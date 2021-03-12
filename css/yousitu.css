@@ -1,0 +1,155 @@
+@charset'utf-8';
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family:
+        "YakuHanJP", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴシック Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "Sawarabi Gothic", "sans-serif";
+    /*
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(../img/japan-squea.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+*/
+    background-color: #E5E5E5;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+}
+
+#wrap {
+    text-align: center;
+    width: auto;
+    background-color: black;
+    margin: 0 auto;
+}
+
+footer {
+    border-top: 1px black dashed;
+    background-color: #E5E5E5;
+    padding-top: 20px;
+}
+
+#wrap p {
+    margin: 0;
+    color: black;
+}
+
+
+
+
+
+
+
+#main_nav {
+    width: 100%;
+
+}
+
+#main_nav ul {
+    /*ここ朝永先生に聞く（ulにしかflexきかない）*/
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    z-index: 1000;
+
+}
+
+#main_nav ul li {
+    width: calc(100%/6);
+    list-style-type: none;
+    line-height: 3.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 1px dashed white;
+
+
+}
+
+#main_nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#main_nav ul li:hover {
+    background-color: seagreen;
+
+}
+
+#main_nav ul li a:hover {
+    color: black;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h1 img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+#main {
+    width: 100%;
+text-align: center;
+    margin-top: 100px;
+}
+
+
+h2 {
+    color: white;
+    margin: 70px auto 40px;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px white;
+    z-index: 20;
+}
+
+#gallery {
+  margin: auto;
+  padding-top: 40px;
+  width: 500px;
+}
+
+#gallery .main img {
+  border: 4px solid #fff;
+  box-shadow: 0px 0px 14px #000;
+  width: 100%;
+}
+
+#gallery .main p {
+  color: #bbb;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#gallery .thumb img {
+  border:4px solid #fff;
+  border-radius: 400px;
+  box-shadow: 0px 0px 10px #000;
+  height: 60px;
+  margin: 10px;
+  width: 60px;
+}
+
+
+
+
