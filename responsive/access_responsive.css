@@ -1,0 +1,65 @@
+@charset'utf-8';
+
+@media(max-width:1000px){
+    #otoiawase{
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+ 
+}
+
+@media(max-width:880px){
+    #otoiawase{
+        width: 600px;
+        
+    }
+    
+ 
+}
+@media(max-width:800px){
+    #otoiawase{
+        width: 500px;
+    }
+    h2{
+        font-size: 2em;
+    }
+    #item {
+
+     display: block;     
+}
+    #item p{
+        width: auto;
+    }
+.finput{
+        margin-left: 0px;
+    }
+    
+}
+
+@media(max-width:600px){
+    #item{
+        display: block;
+    }
+    textarea{
+        width: 400px;
+        height: 200px;
+    }
+    
+}
+
+
+@media(max-width:500px){
+    #otoiawase{
+        width: 300px;
+        text-align: center;
+    }
+    .finput{
+        width: 300px;
+        padding: 0;
+    }
+    textarea{
+        width: 300px;
+    }
+    
+}

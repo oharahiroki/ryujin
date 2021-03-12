@@ -1,0 +1,52 @@
+@charset'utf-8';
+
+@media(max-width:1200px){
+    #contents{
+        width:1000px;
+    }
+    
+}
+
+@media(max-width:1000px){
+    #contents{
+        width:800px;
+    }
+    
+}
+
+@media(max-width:800px){
+    #contents{
+        width:600px;
+    }
+    
+}
+
+@media(max-width:600px){
+    #contents{
+        width:400px;
+    }
+    #contents img{
+        width: 350px;
+    }
+    #contents p{
+        font-size: 1.2em;
+    }
+    #text{
+        width:400px;
+    }
+}
+
+@media(max-width:400px){
+    #contents{
+        width:300px;
+    }
+    #contents img{
+        width: 300px;
+    }
+    #contents p{
+        font-size: 1.2em;
+    }
+    #text{
+        width:250px;
+    }
+}

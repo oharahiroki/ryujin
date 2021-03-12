@@ -1,0 +1,33 @@
+@charset'utf-8';
+
+@media(max-width:1000px){
+    #main{
+        width: auto;
+    }
+}
+
+@media(max-width:860px){
+    #gaiyou li{
+        list-style-type: none;
+    }
+}
+
+
+@media(max-width:760px){
+    #room{
+        display: block;
+        text-align: center;
+    }
+    #room img{
+        width: 500px;
+        margin-right: 0px;
+        
+    }
+}
+
+@media(max-width:500px){
+    #room img{
+        width: 300px;    
+    }
+    
+}

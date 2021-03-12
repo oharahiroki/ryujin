@@ -1,0 +1,10 @@
+
+@charset'utf-8';
+
+
+@media(max-width:1000px){
+    #main{
+        width:auto;
+    }
+    
+}
