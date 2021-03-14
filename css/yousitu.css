@@ -150,6 +150,439 @@ h2 {
   width: 60px;
 }
 
+@media(max-width:1050px) {
 
+    #main_nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        background: transparent;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: all .5s;
+        z-index: 10;
+        opacity: 0;
+        margin-left: -1px;
+    }
+
+    .open2 #main_nav {
+        left: 0;
+        opacity: 1;
+    }
+
+    #main_nav {
+        padding: 20px;
+    }
+
+    #main_nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        background-color: blue;
+        opacity: 0.5;
+        width: 150px;
+    }
+
+    #main_nav ul li {
+        width: 150px;
+        position: relative;
+        margin: 0;
+        border-right: none;
+    }
+
+    #main_nav ul li a {
+        font-size: 14px;
+    }
+
+
+    #main_nav ul li a:nth-of-type(1) {
+        height: 50px;
+    }
+
+
+
+
+    #main_nav a {
+        display: block;
+        color: black;
+        font-size: 14px;
+        padding: 0;
+        transition-duration: 0.2s;
+        text-align: start;
+        width: 150px;
+        /*		border-bottom: 2px dotted white;*/
+        margin: 2px;
+    }
+
+    #main_nav a:hover {
+        background-color: white;
+    }
+
+
+    #main_nav {
+        left: -70%;
+        width: 70%;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: #fff;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ac6525;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: blue;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: blue;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+}
+
+
+@media(max-width:1050px) {
+
+    #main_nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        background: transparent;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: all .5s;
+        z-index: 10;
+        opacity: 0;
+        margin-left: -1px;
+    }
+
+    .open2 #main_nav {
+        left: 0;
+        opacity: 1;
+    }
+
+    #main_nav {
+        padding: 20px;
+    }
+
+    #main_nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        background-color: blue;
+        opacity: 0.5;
+        width: 150px;
+    }
+
+    #main_nav ul li {
+        width: 150px;
+        position: relative;
+        margin: 0;
+        border-right: none;
+    }
+
+    #main_nav ul li a {
+        font-size: 14px;
+    }
+
+
+    #main_nav ul li a:nth-of-type(1) {
+        height: 50px;
+    }
+
+
+
+
+    #main_nav a {
+        display: block;
+        color: black;
+        font-size: 14px;
+        padding: 0;
+        transition-duration: 0.2s;
+        text-align: start;
+        width: 150px;
+        /*		border-bottom: 2px dotted white;*/
+        margin: 2px;
+    }
+
+    #main_nav a:hover {
+        background-color: white;
+    }
+
+
+    #main_nav {
+        left: -70%;
+        width: 70%;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: #fff;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ac6525;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: blue;
+        border-radius: 4px;
+        transition: all .5s;
+    }
+
+    .toggle_btn span:nth-child(1) {
+        top: 4px;
+    }
+
+    .toggle_btn span:nth-child(2) {
+        top: 14px;
+    }
+
+    .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .open2 .toggle_btn span {
+        background-color: blue;
+    }
+
+    .open2 .toggle_btn span:nth-child(1) {
+        transform: translateY(10px) rotate(-315deg);
+    }
+
+    .open2 .toggle_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .open2 .toggle_btn span:nth-child(3) {
+        transform: translateY(-10px) rotate(315deg);
+    }
+
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+
+    .open2 #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        opacity: .7;
+        z-index: 2;
+        cursor: pointer;
+    }
+}
 
 
